@@ -17,6 +17,9 @@ keymap("n", "<leader>tn", ":tabnew<CR>", { desc = "New tab" })
 keymap("n", "<leader>tc", ":tabclose<CR>", { desc = "Close tab" })
 keymap("n", "<leader>to", ":tabonly<CR>", { desc = "Close other tabs" })
 
+-- Reset Highlighted Text
+keymap("n", "<Esc>", "<Esc>:noh<CR>")
+
 -- Comment Line
 keymap("n", "<C-/>", "gcc", { remap = true })
 keymap("v", "<C-/>", "gc", { remap = true })
