@@ -14,5 +14,6 @@ require("conform").setup({
 		python = { "black" },
 		go = { "gofmt" },
 		lua = { "stylua" },
+		html = { "prettier" },
 	},
 })
